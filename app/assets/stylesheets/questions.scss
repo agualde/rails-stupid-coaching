@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+color: #999999;
+margin-bottom: 100px;
+}
+
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  border-radius: 50px;
+  font-weight: lighter;
+  padding: 15px 25px;
+  opacity: 0.6;
+  display: inline-block;
+  text-decoration: none;
+  }
+
+  .btn-medium:hover {
+    opacity: 1;
+  }
+
+.container {
+  margin: 95px;
+  text-align: center;
+}
+
+.answer {
+  text-align: start;
+  padding-left: 14px;
+  border-left: 7px solid rgba($color: #8f8f8f, $alpha: 0.3);
+}
